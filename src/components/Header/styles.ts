@@ -14,7 +14,7 @@ export const HeaderContent = styled.div`
     align-items: center;
 
     img {
-        width: 50px;
+        width: 60px;
     }
 
     button {
