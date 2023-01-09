@@ -7,9 +7,9 @@ export function Header() {
             <HeaderContent>
                 <img src={logo} alt="logo" />
                 <Navbar>
-                    <a href="">Home</a>
-                    <a href="">About</a>
-                    <a href="">Photos</a>
+                    <a href="#">Home</a>
+                    <a href="#Gallery">Photos</a>
+                    <a href="#About">About</a>
                     <a href="">Contact</a>
                 </Navbar>
 

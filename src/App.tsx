@@ -1,3 +1,4 @@
+import { About } from "./components/About/About"
 import { Footer } from "./components/Footer/Footer"
 import { Gallery } from "./components/Gallery/Gallery"
 import { Header } from "./components/Header/Header"
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <Hero />
       <Gallery />
+      <About />
       {/* <Footer /> */}
       <GlobalStyles />
     </>

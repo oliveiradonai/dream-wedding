@@ -34,7 +34,7 @@ export function Gallery() {
     }
     
     return (
-        <Container>
+        <Container id="Gallery">
             <h1>Photos</h1>
             <img src={Divider} />
             <Photos>

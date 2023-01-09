@@ -9,6 +9,10 @@ export const GlobalStyles = createGlobalStyle`
         overflow-x: hidden;
     }
 
+    html {
+        scroll-behavior: smooth;        
+    }
+
     body{ 
         background-color: #fef5f5;
     }
