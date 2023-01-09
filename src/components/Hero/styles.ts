@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-import heroBackground from '../../img/bg.jpg'
+import heroBackground from '../../assets/images/bg/bg.jpg';
 
 export const Container = styled.div`
     width: 100vw;

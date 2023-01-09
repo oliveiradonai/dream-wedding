@@ -1,5 +1,5 @@
 import { Navbar, Container, HeaderContent } from "./styles";
-import logo from '../../img/logo.png'
+import logo from '../../assets/images/logo/logo.png';
 
 export function Header() {
     return (

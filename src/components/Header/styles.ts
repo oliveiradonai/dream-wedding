@@ -43,6 +43,7 @@ export const HeaderContent = styled.div`
 export const Navbar = styled.nav`
     margin-left: 5rem;
     height: 5rem;
+    overflow: hidden;
 
     a {
         display: inline-block;

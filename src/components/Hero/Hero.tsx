@@ -1,6 +1,6 @@
 import { Background, Container, Content, Left, Title } from "./styles";
 
-import logo from '../../img/logo.png'
+import logo from '../../assets/images/logo/logo.png';
 
 import { Form } from "../Form/Form";
 
