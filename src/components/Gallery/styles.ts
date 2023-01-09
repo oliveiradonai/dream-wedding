@@ -8,6 +8,10 @@ export const Container = styled.div`
     justify-content: start;
     flex-direction: column;
 
+    img {
+        max-width: 600px;
+    }
+
     h1 {
         color: #E75A7C;
         font-size: 3rem;
