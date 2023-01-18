@@ -45,7 +45,7 @@ export const Container = styled.div`
             
             border-radius: 5px;
             background-color: transparent;
-            border: 1px solid rgba(255, 255, 255, 0.28);
+            border: 1px solid #777777;
             color: #000000;
 
             :focus {
@@ -59,8 +59,10 @@ export const Container = styled.div`
             height: 100px;
             padding: 1rem;
 
-            border: 1px solid rgba(255, 255, 255, 0.28);
+            border-radius: 5px;
+            border: 1px solid #777777;
             background-color: transparent;
+            color: #000000;
 
             :focus {
                 outline: none;

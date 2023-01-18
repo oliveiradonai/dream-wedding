@@ -73,13 +73,13 @@ export const Title = styled.div`
         font-family: 'Josefin Sans';
         line-height: 1.3em;
         font-size: 3.5rem;
-        color: #000000;
+        color: #FFFFFF;
         font-weight: 300;
         text-align: center;
 
         overflow: hidden;
-        white-space: nowrap; /* Keeps the content on a single line */
-        margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+        white-space: nowrap;
+        margin: 0 auto;
         animation: 
         typing 3.5s steps(30, end),
         blink-caret .5s step-end infinite;

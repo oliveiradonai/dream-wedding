@@ -10,7 +10,7 @@ export function Header() {
                     <a href="#">Home</a>
                     <a href="#Gallery">Photos</a>
                     <a href="#About">About</a>
-                    <a href="">Contact</a>
+                    <a href="#Contact">Contact</a>
                 </Navbar>
 
                 <button type="button">

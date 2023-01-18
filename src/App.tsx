@@ -1,4 +1,5 @@
 import { About } from "./components/About/About"
+import { Contact } from "./components/Contact/Contact"
 import { Footer } from "./components/Footer/Footer"
 import { Gallery } from "./components/Gallery/Gallery"
 import { Header } from "./components/Header/Header"
@@ -12,7 +13,8 @@ function App() {
       <Hero />
       <Gallery />
       <About />
-      {/* <Footer /> */}
+      <Contact />
+      <Footer />
       <GlobalStyles />
     </>
   )
