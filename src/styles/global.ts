@@ -54,16 +54,12 @@ export const GlobalStyles = createGlobalStyle`
 
     .react-modal-content{
         width: 100%;
-        max-width: 650px;
+        max-width: 480px;
         background: #ffffff;
-        padding: 3rem;
         position: relative;
         border-radius: 0.5rem;
         outline: none;
-
-        @media only screen and (max-width: 1280px) {
-            max-width: 500px;
-        }
+        background: transparent;
     }
 
     .react-modal-close{

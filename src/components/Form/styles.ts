@@ -1,8 +1,9 @@
 import styled from "styled-components";
 
-export const Container = styled.form`
+export const Container = styled.div`
     width: 600px;
-    padding: 3rem;
+    max-height: 550px;
+    padding: 1.2rem 2.3rem;
 
     background: rgba(255, 255, 255, 0.3);
     border-radius: 16px;
@@ -32,15 +33,15 @@ export const Container = styled.form`
 
         label {
             font-family: 'Josefin Sans';
-            font-size: 1.3rem;
+            font-size: 1rem;
             font-weight: 300;
             color: #000000;
         }
         
         input {
-            font-size: 1.5rem;
+            font-size: 1.3rem;
             width: 100%;
-            padding: 1rem 1.5rem;
+            padding: 1rem;
             
             border-radius: 5px;
             background-color: transparent;
@@ -53,10 +54,10 @@ export const Container = styled.form`
         }
 
         textarea {
-            font-size: 1.5rem;
+            font-size: 1.3rem;
             width: 100%;
             height: 100px;
-            padding: 1rem 1.5rem;
+            padding: 1rem;
 
             border: 1px solid rgba(255, 255, 255, 0.28);
             background-color: transparent;
