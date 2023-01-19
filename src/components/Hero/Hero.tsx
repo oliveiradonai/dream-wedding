@@ -21,7 +21,6 @@ export function Hero() {
                         </Title>
                         <p>Get in touch with us, we will be glad to perpetuate the most magical moment of your life.</p>
                     </Left>
-                    <Form />
                 </Content>
             </Background>
         </Container>

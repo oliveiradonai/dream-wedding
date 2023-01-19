@@ -5,8 +5,8 @@ import Divider from '../../assets/svg/divide.svg';
 export function About() {
     return (
         <Container id="About">
-            <h1>Our Road along the Time</h1>
             <img src={Divider} />
+            <h1>Our Road along the Time</h1>
 
             <Content>
                 <Timeline>

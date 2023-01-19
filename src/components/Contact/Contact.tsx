@@ -5,8 +5,8 @@ import { Container } from './styles';
 export function Contact() {
     return (
         <Container id="Contact">
-            <h1>Contact</h1>
             <img src={Divider} />
+            <h1>Contact</h1>
 
             <Form />
         </Container>

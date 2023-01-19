@@ -35,8 +35,8 @@ export function Gallery() {
     
     return (
         <Container id="Gallery">
-            <h1>Photos</h1>
             <img src={Divider} />
+            <h1>Photos</h1>
             <Photos>
                 <img onClick={() => handleOpenNewTransactionModal(Image1)} src={Image1} />
                 <img onClick={() => handleOpenNewTransactionModal(Image2)} src={Image2} />

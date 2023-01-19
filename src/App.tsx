@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react"
 import { About } from "./components/About/About"
 import { Contact } from "./components/Contact/Contact"
 import { Footer } from "./components/Footer/Footer"
@@ -7,9 +8,23 @@ import { Hero } from "./components/Hero/Hero"
 import { GlobalStyles } from "./styles/global"
 
 function App() {
+  const [headerColor, setHeaderColor] = useState('transparent');
+
+  document.addEventListener('scroll', () => {
+    const scroll_position = window.scrollY;
+
+    if (scroll_position > 75) {
+      setHeaderColor('#FFFFFF');
+    } else {
+      setHeaderColor('transparent');
+    }
+  });
+
   return (
-    <>    
-      <Header />
+    <>
+      <Header
+        headerColor={headerColor}
+      />
       <Hero />
       <Gallery />
       <About />

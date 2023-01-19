@@ -16,6 +16,15 @@ export const Container = styled.div`
         color: #E75A7C;
         font-size: 3rem;
         font-weight: 500;
+
+        @media only screen and (max-width: 768px) {
+            font-size: 2.5rem;
+            text-align: center;
+        }
+    }
+
+    @media only screen and (max-width: 768px) {
+        padding: 5rem 1rem 0;
     }
 `;
 
@@ -23,6 +32,7 @@ export const Content = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 5rem 0 0;
 `;
 
 export const Timeline = styled.div`

@@ -50,6 +50,12 @@ export const GlobalStyles = createGlobalStyle`
         display: flex;
         align-items: center;
         justify-content: center;
+
+        z-index: 9999;
+
+        @media only screen and (max-width: 768px) {
+            padding: 0 1rem;
+        }
     }
 
     .react-modal-content{

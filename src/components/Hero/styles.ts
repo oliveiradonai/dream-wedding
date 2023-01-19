@@ -9,7 +9,11 @@ export const Container = styled.div`
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: calc(100vw - 7%);
+    background-size: 100vw;
+
+    @media only screen and (max-width:  768px) {
+        background-size: cover;
+    }
 `;
 
 export const Background = styled.div`
@@ -17,15 +21,15 @@ export const Background = styled.div`
     justify-content: center;
     
     width: 100vw;
-    height: calc(100vh - 130px);
+    height: 100vh;
 
-    background: linear-gradient(0deg,rgba(255, 255, 255, 0.199) 10%,transparent 90%);
+    background: linear-gradient(0deg,#00000033 10%,transparent 90%);
 `;
 
 export const Content = styled.div`
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     width: 100vw;
 `;
 
@@ -34,7 +38,8 @@ export const Left = styled.div`
     flex-direction: column;
     align-items: flex-start;
 
-    gap: 7rem;
+    padding: 5rem;
+    gap: 5rem;
 
     p {
         width: 300px;
@@ -52,6 +57,11 @@ export const Left = styled.div`
         from { opacity: 0; }
         to { opacity: 1; }
     }
+
+    @media only screen and (max-width: 768px) {
+        padding: 2rem;
+        gap: 7rem;
+    }
 `;
 
 export const Title = styled.div`
@@ -62,6 +72,10 @@ export const Title = styled.div`
 
         animation: fadeInLogo 3s;
         animation-fill-mode: forwards;
+
+        @media only screen and (max-width: 768px) {
+            width: 100px;
+        }
     }
 
     @keyframes fadeInLogo {
@@ -83,6 +97,11 @@ export const Title = styled.div`
         animation: 
         typing 3.5s steps(30, end),
         blink-caret .5s step-end infinite;
+
+        @media only screen and (max-width: 768px) {
+            font-size: 1.8rem;
+            font-weight: 400;
+        }
     }
 
     /* The typing effect */
@@ -108,10 +127,19 @@ export const Title = styled.div`
         animation: fadeIn 3s;
         animation-delay: 3s;
         animation-fill-mode: forwards;
+
+        @media only screen and (max-width: 768px) {
+            font-size: 2.5rem;
+            font-weight: 700;
+        }
     }
 
     @keyframes fadeIn {
         from { opacity: 0; }
         to { opacity: 1; }
+    }
+
+    @media only screen and (max-width: 768px) {
+        width: 100%;
     }
 `

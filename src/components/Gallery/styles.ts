@@ -16,6 +16,11 @@ export const Container = styled.div`
         color: #E75A7C;
         font-size: 3rem;
         font-weight: 500;
+
+        @media only screen and (max-width: 768px) {
+            font-size: 2.5rem;
+            text-align: center;
+        }
     }
 `;
 
@@ -30,5 +35,10 @@ export const Photos = styled.div`
         border-radius: 4px;
 
         cursor: pointer;
+    }
+
+    @media only screen and (max-width: 768px) {
+        column-count: 2;
+        padding: 5rem 2rem 0;
     }
 `;

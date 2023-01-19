@@ -1,7 +1,16 @@
 import styled from "styled-components";
 
-export const Container = styled.div`
+interface ContainerProps {
+    headerColor: string;
+}
+export const Container = styled.div<ContainerProps>`
     height: 5rem;
+    position: fixed;
+    width: 100%;
+    background-color: ${props => props.headerColor};
+    z-index: 999;
+
+    transition: .3s ease background-color;
 `;
 
 export const HeaderContent = styled.div`
